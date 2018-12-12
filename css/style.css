@@ -15,12 +15,12 @@
 
 @font-face{
 	font-family:bodoni MT Condensed;
-	src:url(../fonts/BOD_CR.ttf);
+	src:url(../fonts/BOD_CR.TTF);
 }
 
 @font-face{
 	font-family:Onyx regular;
-	src:url(../fonts/ONYX.ttf);
+	src:url(../fonts/ONYX.TTF);
 }
 
 
@@ -85,7 +85,7 @@ h5{
 
 .article-one {
 	min-height: 100vh;
-	background-image:url(../images/clock.JPG);
+	background-image:url(../images/clock.jpg);
 	background-size: cover;
 	background-position:bottom;
 	background-repeat:no-repeat;
