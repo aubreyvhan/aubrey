@@ -1,28 +1,27 @@
 @font-face{
 	font-family:Vogue;
-	src:url(fonts/Vogue.ttf);
+	src:url(Vogue.ttf);
 }
 
 @font-face{
 	font-family:shorelines script regular;
-	src:url(fonts/Shorelines Script Bold.otf);
+	src:url(Shorelines Script Bold.otf);
 }
 
 @font-face{
 	font-family:Red Velvet Regular;
-	src:url(fonts/RedVelvet-Regular.otf);
+	src:url(RedVelvet-Regular.otf);
 }
 
 @font-face{
 	font-family:bodoni MT Condensed;
-	src:url(fonts/BOD_CR.TTF);
+	src:url(BOD_CR.TTF);
 }
 
 @font-face{
 	font-family:Onyx regular;
-	src:url(fonts/ONYX.TTF);
+	src:url(ONYX.TTF);
 }
-
 .main-header{
 	padding:5px;
 	border-top: solid;
