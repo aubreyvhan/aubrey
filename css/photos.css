@@ -1,0 +1,180 @@
+@font-face{
+	font-family:Vogue;
+	src:url(../fonts/Vogue.ttf);
+}
+
+@font-face{
+	font-family:shorelines script regular;
+	src:url(../fonts/Shorelines Script Bold.otf);
+}
+
+@font-face{
+	font-family:Red Velvet Regular;
+	src:url(../fonts/Red Velvet Regular.otf);
+}
+
+@font-face{
+	font-family:bodoni MT Condensed;
+	src:url(../fonts/BOD_CR.ttf);
+}
+
+@font-face{
+	font-family:Onyx regular;
+	src:url(../fonts/ONYX.ttf);
+}
+
+.main-header{
+	padding:5px;
+	border-top: solid;
+	border-top-color: #d7d6c7;
+	border-bottom: thin solid;
+	margin: 0;
+}
+
+.button {
+	background-color: #fff;
+	color:black;
+	padding:0px 0px;
+	font-family: Red Velvet Regular ;
+	text-decoration:none;
+	font-size:18px;
+}
+
+#main-menu {
+	margin:0;
+	padding: 0;
+	height: 10vh;
+	text-align:center;
+	list-style:none;
+	text-decoration: none;
+	display:grid;
+	grid-gap:5px;
+	grid-template-columns:repeat(5,1fr);
+}
+
+#main-menu li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-family:shorelines script regular;
+	margin: 0;
+	font-size:25px;
+}
+
+h2 {
+	font-family:Vogue;
+	font-size:50px;
+	text-align: center;
+}
+
+.photos {
+	padding:10px;
+	text-align:center;
+}
+
+.picture{
+	min-height: 100vh;
+	background-image:url(../images/random.JPG);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+.pictures{
+	padding:10px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size:10px;
+	margin-bottom:10px;
+}
+
+.picture-one{
+	grid-column:1/2;
+	margin-bottom:10px;
+}
+
+.picture-two{
+	grid-column:2/3;
+	margin-bottom:10px;
+}
+
+.picture-three{
+	grid-column:3/4;
+	margin-bottom:10px;
+}
+
+.picture-four{
+	grid-column:1/2;
+	margin-bottom:10px;
+}
+
+.picture-five{
+	grid-column:2/3;
+	margin-bottom:10px;
+}
+
+.picture-six{
+	grid-column:3/4;
+	margin-bottom:10px;
+}
+
+.picture-seven{
+	grid-column:1/2;
+	margin-bottom:10px;
+}
+
+.picture-eight{
+	grid-column:2/3;
+	margin-bottom:10px;
+}
+
+.picture-nine{
+	grid-column:3/4;
+	margin-bottom:10px;
+}
+
+.picture-ten{
+	grid-column:1/2;
+	margin-bottom:10px;
+}
+
+.picture-eleven{
+	grid-column:2/3;
+	margin-bottom:10px;
+}
+
+.picture-twelve{
+	grid-column:3/4;
+	margin-bottom:10px;
+}
+
+.qoute{
+	font-family:shorelines script regular;
+	font-size:20px;
+	padding:10px;
+	background:#fff;
+	border-color:#d7d6c7;
+	border:thin solid;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.footer{
+	padding:10px;
+	background:#d7d6c7;
+	text-align:center;
+	color:#53535;
+	font-family: Vogue;
+}

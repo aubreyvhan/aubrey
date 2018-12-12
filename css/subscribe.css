@@ -1,0 +1,78 @@
+@font-face{
+	font-family:Vogue;
+	src:url(../fonts/Vogue.ttf);
+}
+
+@font-face{
+	font-family:shorelines script regular;
+	src:url(../fonts/Shorelines Script Bold.otf);
+}
+
+@font-face{
+	font-family:Red Velvet Regular;
+	src:url(../fonts/RedVelvet-Regular.otf);
+}
+
+@font-face{
+	font-family:bodoni MT Condensed;
+	src:url(../fonts/BOD_CR.ttf);
+}
+
+@font-face{
+	font-family:Onyx regular;
+	src:url(../fonts/ONYX.ttf);
+}
+
+.main-header{
+	padding:5px;
+	border-top: solid;
+	border-top-color: #d7d6c7;
+	border-bottom: thin solid;
+	margin: 0;
+}
+
+.button {
+	background-color: #fff;
+	color:black;
+	padding:0px 0px;
+	font-family: Red Velvet Regular ;
+	text-decoration:none;
+	font-size:18px;
+}
+
+#main-menu {
+	margin:0;
+	padding: 0;
+	height: 10vh;
+	text-align:center;
+	list-style:none;
+	text-decoration: none;
+	display:grid;
+	grid-gap:5px;
+	grid-template-columns:repeat(5,1fr);
+}
+
+#main-menu li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-family:shorelines script regular;
+	margin:0;
+	font-size: 25px;
+}
+
+.thankyou {
+	min-height: 100vh;
+	background-image:url(../images/subscribe.JPG);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
